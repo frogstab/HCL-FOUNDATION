@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 100%;
+	background-image: url(../main.png);
+}
+.top{
+	color: white;
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	background-color: #000000;
+	background-image: linear-gradient(black,grey);
+}
+.top img{
+	height: 70%;
+}
+.top h1{
+	font-family: "book antiqua";
+}
+.down{
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: linear-gradient(black,grey);
+}
+.down-1{
+	border: 2px solid black;
+}
+.down-1 ul{
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 0 ;
+	font-weight: 1000;
+}
+.down-1 ul li{
+	list-style: none;
+    margin: 0 10%;
+}
+.down-1 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.down-1 ul li a:hover{
+	text-decoration: none;
+	color: lightgray
+}
+.main{
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+.main-1{
+	border: 5px solid black;
+	width: 70%;
+	margin: 20px 0 0 0;
+	border-radius: 10px;
+}
+.main-1 ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	line-height: 2;
+	font-size: 150%;
+	padding: 20px ;
+}
+.main-1 ul li a{
+	text-decoration: none;
+	color: red;
+}
+.main-1 ul li a:hover{
+	color:orange;
+}
+.end {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.end-1{
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: linear-gradient(black,grey);
+	border: 2px solid black;
+	text-align: center;
+}
+.end-1 span{
+	font-size: 130%;
+	font-family: "book antiqua";
+}

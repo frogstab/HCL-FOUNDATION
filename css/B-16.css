@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	background-image: url(../main.png);
+}
+.top{
+	color: white;
+	text-align: center;
+	height: 150px;
+	width: 100%;
+	background-color: #000000;
+	background-image: linear-gradient(black,grey);
+}
+.top img{
+	height: 70%;
+}
+.top h1{
+	font-family: "book antiqua";
+}
+.down{
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: linear-gradient(black,grey);
+}
+.down-1{
+	border: 2px solid black;
+}
+.down-1 ul{
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 0 ;
+}
+.down-1 ul li{
+	list-style: none;
+    margin: 0 10%;
+	font-weight: 1000;
+}
+.down-1 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.down-1 ul li a:hover{
+	text-decoration: none;
+	color: lightgray;
+}
+.main{
+	display: flex;
+	justify-content: center;
+}
+.main-1{
+	margin: 20px 0 0 0;
+	text-align: center;
+	word-break: break-word;
+}
+.main-1 table tr td p{
+	text-align: left;
+	text-indent: 2em;
+}
+.im{
+	margin: 20px;
+}
+.im img{
+	height: 200px;
+	border: 0.125rem solid #000000;
+}
+.im-1{
+	display: block;
+	font-size: 15px;
+	color: gray;
+}
+.main-1 table tr th{
+	padding: 5px 0px;
+}
+.main-1 table tr td{
+	padding: 5px 0px;
+}
+.inside{
+	background-color: floralwhite;
+	margin: 10px;
+	border: 2px dashed dimgray;
+	color: dimgray;
+	padding: 5px;
+}
+.inside-1{
+	font-family: "楷体";
+	background-color: floralwhite;
+	margin: 10px;
+	border: 2px dashed dimgray;
+	color: dimgray;
+	padding: 5px;
+}
+.end {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.end-1{
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #000000;
+	background-image: linear-gradient(black,grey);
+	border: 2px solid black;
+	text-align: center;
+}
+.end-1 span{
+	font-family: "book antiqua";
+}
+
+
